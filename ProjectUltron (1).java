@@ -75,7 +75,7 @@ public class ProjectUltron {
 			else if (j == 2)
 				System.out.println("Siga adiante para o teste!");
 			else
-				System.out.println("\nPorta Livre, siga para a proxima porta");
+				System.out.println("\nPorta Livre, siga para a proxima porta.");
 
 			System.out.println();
 		}
@@ -86,14 +86,14 @@ public class ProjectUltron {
 		int op = 0;
 		do {
 
-			System.out.println("O objetivo é diminuir o HP do adversário");
+			System.out.println("O objetivo é diminuir o HP do adversário.");
 			System.out.println("Para batalhar basta escolher uma das opções...");
-			System.out.println("A cada opção há uma consequencia");
-			System.out.println("Varredura = Gera um ataque que tira entre 0 - 25, o menor porem Ilimitado");
-			System.out.println("Windows Defender = Gera um ataque que tira entre 0 - 50, porem uso limitado");
+			System.out.println("A cada opção há uma consequência.");
+			System.out.println("Varredura = Gera um ataque que tira entre 0 - 25, o menor porém ilimitado.");
+			System.out.println("Windows Defender = Gera um ataque que tira entre 0 - 50, porém uso limitado.");
 			System.out
-					.println("Restaurar o Computador = Cura 20% do HP, porem o seu limite é 100% de HP, uso limitado");
-			System.out.println("Avast = Gera um ataque que tira entre 0 - 75, porem uso limitado");
+					.println("Restaurar o Computador = Cura 20% do HP, porém o seu limite é 100% de HP, uso limitado.");
+			System.out.println("Avast = Gera um ataque que tira entre 0 - 75, porém uso limitado.");
 
 			System.out.println("Digite 1 para voltar: ");
 			op = input.nextInt();
@@ -124,15 +124,15 @@ public class ProjectUltron {
 		switch (capitulo) {
 
 		case 1:
-			System.out.println("\n\nVIRUS é o seu inimigo");
+			System.out.println("\n\nVÍRUS é o seu inimigo!");
 			break;
 
 		case 2:
-			System.out.println("\n\nMAWARE é o seu inimigo");
+			System.out.println("\n\nMAWARE é o seu inimigo!");
 			break;
 
 		case 3:
-			System.out.println("\n\nO pior de todos o ZÉ GOTINHA ROBÓTICO é seu inimigo");
+			System.out.println("\n\nO pior de todos o ZÉ GOTINHA ROBÓTICO é seu inimigo!");
 			break;
 		}
 
@@ -140,7 +140,7 @@ public class ProjectUltron {
 
 			do {
 				saida = false;
-				System.out.print("\n=======[Ecolha uma das opçõe]=======\n");
+				System.out.print("\n=======[Escolha uma das opções:]=======\n");
 				System.out.print("====================================\n");
 				System.out.print("||1 - Varredura                   ||\n");
 				System.out.print("||2 - Windows Defender - " + defender+"        ||\n");
@@ -165,7 +165,7 @@ public class ProjectUltron {
 					atkHacker = valor.nextInt(50);
 					defender--;
 				} else {
-					System.err.println("Você já não pode usar mais essa habilidade\n");
+					System.err.println("Você já não pode usar mais essa habilidade!\n");
 					atkHacker = 0;
 				}
 				break;
@@ -189,7 +189,7 @@ public class ProjectUltron {
 					atkHacker = valor.nextInt(75);
 					avast--;
 				} else {
-					System.err.println("Você já não pode usar mais essa habilidade\n");
+					System.err.println("Você já não pode usar mais essa habilidade!\n");
 					atkHacker = 0;
 				}
 				break;
@@ -237,68 +237,68 @@ public class ProjectUltron {
 
 		// Teste 1
 		System.out.println("O que são bibliotecas dentro de uma linguagem de programação?");
-		System.out.println("A – Um local com muitos livros");
-		System.out.println("B – Um conjunto de livros que podem ser lidos dentro da IDE");
+		System.out.println("A – Um local com muitos livros.");
+		System.out.println("B – Um conjunto de livros que podem ser lidos dentro da IDE.");
 		System.out.println(
-				"C – Um conjunto de funções pré-escritas por outros programadores que já resolvem determinados problemas");
-		System.out.println("D – Local reservado para ler");
+				"C – Um conjunto de funções pré-escritas por outros programadores que já resolvem determinados problemas.");
+		System.out.println("D – Local reservado para ler.");
 
 		alternativa = input.next();
 
 		if (alternativa.equals("C") || alternativa.equals("c")) {
-			System.out.println("Alternativa correta");
+			System.out.println("Alternativa correta!");
 		} else {
-			System.out.println("Alternativa errada");
+			System.out.println("Alternativa incorreta!");
 			acertos--;
 		}
 
 		// Teste 2
 		System.out.println("O que é um vetor?");
-		System.out.println("A – Um processo do Java");
-		System.out.println("B – O vetor é um laço de repetição");
-		System.out.println("C – O vetor é um sistema de condicional");
-		System.out.println("D – O vetor é um conjunto de variáveis");
+		System.out.println("A – Um processo do Java.");
+		System.out.println("B – O vetor é um laço de repetição.");
+		System.out.println("C – O vetor é um sistema de condicional.");
+		System.out.println("D – O vetor é um conjunto de variáveis.");
 
 		alternativa = input.next();
 
 		if (alternativa.equals("D") || alternativa.equals("d")) {
-			System.out.println("Alternativa correta");
+			System.out.println("Alternativa correta!");
 		} else if (alternativa.equals("C") || alternativa.equals("c") || alternativa.equals("B")
 				|| alternativa.equals("b") || alternativa.equals("A") || alternativa.equals("a")) {
-			System.out.println("Alternativa errada");
+			System.out.println("Alternativa incorreta!");
 			acertos--;
 		}
 
 		// Teste 3
 		System.out.println("O que é uma constante?");
-		System.out.println("A – Uma variável com um valor fixo");
-		System.out.println("B – Uma variável que deve ser constantemente utilizada");
-		System.out.println("C – Uma biblioteca do Java ");
-		System.out.println("D – Um processo de TI");
+		System.out.println("A – Uma variável com um valor fixo.");
+		System.out.println("B – Uma variável que deve ser constantemente utilizada.");
+		System.out.println("C – Uma biblioteca do Java.");
+		System.out.println("D – Um processo de TI.");
 
 		alternativa = input.next();
 
 		if (alternativa.equals("A") || alternativa.equals("a")) {
-			System.out.println("Alternativa correta");
+			System.out.println("Alternativa correta!");
 		} else if (alternativa.equals("C") || alternativa.equals("c") || alternativa.equals("B")
 				|| alternativa.equals("b") || alternativa.equals("D") || alternativa.equals("d")) {
-			System.out.println("Alternativa errada");
+			System.out.println("Alternativa incorreta!");
 			acertos--;
 		}
 		// Teste 4
-		System.out.println("Em qual momento o lanço de repetição Do While faz a verificação da condição?");
-		System.out.println("A – Após rodar os comandos dentro do laço uma vez");
-		System.out.println("B – No início, antes de acontecer qualquer comando dentro do laço");
-		System.out.println("C – No meio dos comandos do laço");
-		System.out.println("D – Após aparecer o break, sem isso ele roda sem parar ");
+		System.out.println("Em qual momento o laço de repetição Do While faz a verificação da condição?");
+		System.out.println("A – Após rodar os comandos dentro do laço uma vez.");
+		System.out.println("B – No início, antes de acontecer qualquer comando dentro do laço.");
+		System.out.println("C – No meio dos comandos do laço.");
+		System.out.println("D – Após aparecer o break, sem isso ele roda sem parar.");
 
 		alternativa = input.next();
 
 		if (alternativa.equals("A") || alternativa.equals("a")) {
-			System.out.println("Alternativa correta");
+			System.out.println("Alternativa correta!");
 		} else if (alternativa.equals("C") || alternativa.equals("c") || alternativa.equals("B")
 				|| alternativa.equals("b") || alternativa.equals("D") || alternativa.equals("d")) {
-			System.out.println("Alternativa errada");
+			System.out.println("Alternativa incorreta!");
 			acertos--;
 		}
 
@@ -307,7 +307,7 @@ public class ProjectUltron {
 		do {
 			System.out.println(
 					"Uma variável char recebe mais de um caractere, podendo receber todos os dados de um sistema,\n"
-							+ "como nome, sobrenome, números de CPF entre outros, isso tudo com apenas uma variável");
+							+ "como nome, sobrenome, números de CPF entre outros, isso tudo com apenas uma variável.");
 			System.out.println("A afirmação acima é:");
 			System.out.println("Digite 1 – Verdadeira\nDigite 2 – Falsa");
 			opcao = input.nextInt();
@@ -319,7 +319,7 @@ public class ProjectUltron {
 				System.out.println("Falha: você é tão burro que chega a ser esperto!");
 				saida = false;
 			} else {
-				System.out.println("Resposta invalida");
+				System.out.println("Resposta inválida.");
 				saida = true;
 
 			}
@@ -433,9 +433,9 @@ public class ProjectUltron {
 
 		do {
 			System.out.println("\n..::SELEÇÃO DE CAPÍTULOS::..\n");
-			System.out.println("1 - Capitulo 1");
-			System.out.println("2 - Capitulo 2");
-			System.out.println("3 - Capitulo 3");
+			System.out.println("1 - Capítulo 1");
+			System.out.println("2 - Capítulo 2");
+			System.out.println("3 - Capítulo 3");
 			System.out.println("5 - Voltar");
 
 			int escolha = input.nextInt();
@@ -462,7 +462,7 @@ public class ProjectUltron {
 				saida = true;
 				break;
 			default:
-				System.out.println("Opção Inválida");
+				System.out.println("Opção Inválida!");
 				break;
 
 			}
@@ -477,7 +477,7 @@ public class ProjectUltron {
 
 			System.out.println("Criado por:\n-> Erick\n-> Larissa\n-> Leonis\n-> Rodrigo\n-> Professor:4 Takeo");
 
-			System.out.println("\nDigite 1 para voltar");
+			System.out.println("\nDigite 1 para voltar.");
 
 			volta = input.nextInt();
 
@@ -490,7 +490,7 @@ public class ProjectUltron {
 		int volta;
 
 		do {
-			System.out.print("\n==========================[introdução]================================\n");
+			System.out.print("\n==========================[Introdução]================================\n");
 			System.out.print("======================================================================\n");
 			Apresenta("\nNo ano de 2050, o mundo segue com uma realidade totalmente centrada", TimeUnit.MILLISECONDS,
 					temp_dialog);
@@ -589,9 +589,9 @@ public class ProjectUltron {
 
 		do {
 
-			System.out.println("\nEscolha uma das opções abaixo ");
-			System.out.println("1 - Responder o homem");
-			System.out.println("2 - Pular a janela");
+			System.out.println("\nEscolha uma das opções abaixo: ");
+			System.out.println("1 - Responder o homem.");
+			System.out.println("2 - Pular a janela.");
 			System.out.print("Digite a opção: ");
 			op = input.nextInt();
 
@@ -599,17 +599,17 @@ public class ProjectUltron {
 
 				hpHacker = hpHacker - 10;
 
-				Apresenta("\nVocê cai bruscamente perdendo 10 pontos de HP", TimeUnit.MILLISECONDS, temp_dialog);
-				Apresenta("\nAlem disso sua escolha foi em vão, mesmo pulando a janela", TimeUnit.MILLISECONDS,
+				Apresenta("\nVocê cai bruscamente perdendo 10 pontos de HP.", TimeUnit.MILLISECONDS, temp_dialog);
+				Apresenta("\nAlém disso, sua escolha foi em vão. Mesmo pulando a janela", TimeUnit.MILLISECONDS,
 						temp_dialog);
-				Apresenta("\nAcaba encontrando o homem te aguardando da mesma forma", TimeUnit.MILLISECONDS,
+				Apresenta("\nacaba encontrando o homem te aguardando da mesma forma.", TimeUnit.MILLISECONDS,
 						temp_dialog);
 
 			}
 
 		} while (op < 1 || op > 2);
 
-		Apresenta("\n-Depende. Te devo alguma grana?Questionou " + nome, TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\n-Depende. Te devo alguma grana? Questionou " + nome, TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\n-Você é ou não é " + nome + " ? Replicou o homem estranho.", TimeUnit.MILLISECONDS, temp_dialog);
 		System.err.println("- Sim, eu sou!");
 		Apresenta("\n Respondeu " + nome, TimeUnit.MILLISECONDS, temp_dialog);
@@ -636,7 +636,7 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nfazer! Você simplesmente encheu de “esteroides” essa IA que você se ", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nrefere como Ultron, nunca viu aqueles filmes de uns 30 anos atras da", TimeUnit.MILLISECONDS,
+		Apresenta("\nrefere como Ultron, nunca viu aqueles filmes de uns 30 anos atrás da", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nMarvel, não?!", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nStarkeo leva o " + nome + " para a sala de controle para mostrar que", TimeUnit.MILLISECONDS,
@@ -677,9 +677,9 @@ public class ProjectUltron {
 		Apresenta("\ndominante e que tem controla dos bancos e armamento e tudo que é", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\neletrônico, basicamente isso!", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nStarkeo então reuniu uma equipe de desenvolvedores, um hacker, um", TimeUnit.MILLISECONDS,
+		Apresenta("\nStarkeo então reuniu uma equipe de desenvolvedores: um hacker, um", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nogador de GTA San Andreas um jogador de Tíbia, um desenvolvedor q só.", TimeUnit.MILLISECONDS,
+		Apresenta("\njogador de GTA San Andreas e um jogador de Tíbia, um desenvolvedor que só.", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nfaz ADO e VOCÊ para combater Ultron.", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nCada um sentado em sua posição e pronto para enfrentar Ultron, o jogador", TimeUnit.MILLISECONDS,
@@ -691,41 +691,41 @@ public class ProjectUltron {
 		Apresenta("\nde Ultron.", TimeUnit.MILLISECONDS, temp_dialog);// O inicio contem muito texto, vamos tentar criar
 																		// uma interação com usuário no meio do caminho
 
-		Apresenta("\nAntes de podermos quebrar a barreira do Ultron devemos desvendar o caminho", TimeUnit.MILLISECONDS,
+		Apresenta("\nAntes de podermos quebrar a barreira do Ultron, devemos desvendar o caminho", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\naté a barreira.", TimeUnit.MILLISECONDS, temp_dialog);//
 		System.out.println();
-		Apresenta("\nGraças a uma tecnologia criada por Starkeo, podemos acessar esse caminho", TimeUnit.MILLISECONDS,
+		Apresenta("\nGraças à uma tecnologia criada por Starkeo, podemos acessar esse caminho", TimeUnit.MILLISECONDS,
 				temp_dialog);//
 		Apresenta("\ne passar pelas camadas de segurança.", TimeUnit.MILLISECONDS, temp_dialog);//
-		Apresenta("\nporem, devemos escolher a porta correta, se ela estiver livre podemos acessar",
+		Apresenta("\nporém, devemos escolher a porta correta, se ela estiver livre podemos acessar",
 				TimeUnit.MILLISECONDS, temp_dialog);//
 		Apresenta("\na barreira sem dificuldades.", TimeUnit.MILLISECONDS, temp_dialog);//
-		Apresenta("\nMas se ter algum guarda do Ultron, devemos entrar numa batalha cibernetica", TimeUnit.MILLISECONDS,
+		Apresenta("\nMas se tiver algum guarda do Ultron, devemos entrar numa batalha cibernética.", TimeUnit.MILLISECONDS,
 				temp_dialog);//
 		Apresenta("\nMas não se preocupe, o sistema computacional do Starkeo tem algumas", TimeUnit.MILLISECONDS,
 				temp_dialog);//
-		Apresenta("\nFerramentas utiil contra seus inimigos, porem algumas são limitadas", TimeUnit.MILLISECONDS,
+		Apresenta("\nferramentas úteis contra seus inimigos, porém algumas são limitadas.", TimeUnit.MILLISECONDS,
 				temp_dialog);//
 
-		System.err.println("\nTurtorial de Batalha: ");
+		System.err.println("\nTutorial de Batalha: ");
 
 		IntrucoesBat();
 
 		PortaAcesso();
 
-		System.err.println("\nVocê passou o caminho, vamos seguir adiante");
+		System.err.println("\nVocê passou o caminho, vamos seguir adiante.");
 
 		System.err.println("\n\n-Ultron: Vamos testar seu conhecimento: ");
 
 		do {
 			saida = false;
 			System.out.println("O que são bibliotecas dentro de uma linguagem de programação?");
-			System.out.println("A – Um local com muitos livros");
-			System.out.println("B – Um conjunto de livros que podem ser lidos dentro da IDE");
+			System.out.println("A – Um local com muitos livros.");
+			System.out.println("B – Um conjunto de livros que podem ser lidos dentro da IDE.");
 			System.out.println(
-					"C – Um conjunto de funções pré-escritas por outros programadores que já resolvem determinados problemas");
-			System.out.println("D – Local reservado para ler");
+					"C – Um conjunto de funções pré-escritas por outros programadores que já resolvem determinados problemas.");
+			System.out.println("D – Local reservado para ler.");
 			alternativa = input.next();
 
 			if (alternativa.equals("C") || alternativa.equals("c")) {
@@ -746,8 +746,8 @@ public class ProjectUltron {
 		Apresenta("\nde GTA que estava numa guerra com os BALA’s.", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nStarkeo liga a tv para ver os noticiários. – Ultron invade o sistema de defesa",
 				TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\ndo exército, e instala o terror no Pentágono.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nDepois de um trabalho estressante de 32 minutos a equipe pede uma pausa", TimeUnit.MILLISECONDS,
+		Apresenta("\ndo exército e instala o terror no Pentágono.", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nDepois de um trabalho estressante de 32 minutos, a equipe pede uma pausa", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\npara o lanche enquanto o mundo pega fogo lá fora.", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nO " + nome + " vai à lanchonete do Starkeo e pede o cardápio. ", TimeUnit.MILLISECONDS,
@@ -790,21 +790,21 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nIndústrias Starkeo, já que não estavam valendo muito. Então Starkeo pede ", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		System.err.println("\nAtenção para a próxima fase e se inicia o teste.");
+		System.err.println("\natenção para a próxima fase e se inicia o teste.");
 
 		PortaAcesso();
 
-		System.out.println("\nVocê passou o caminho\n");
+		System.out.println("\nVocê passou o caminho.\n");
 
 		System.err.println("Vamos para o teste da quebra de barreira!");
 
 		do {
 			saida = false;
 			System.out.println("O que é um vetor?");
-			System.out.println("A – Um processo do Java");
-			System.out.println("B – O vetor é um laço de repetição");
-			System.out.println("C – O vetor é um sistema de condicional");
-			System.out.println("D – O vetor é um conjunto de variáveis");
+			System.out.println("A – Um processo do Java.");
+			System.out.println("B – O vetor é um laço de repetição.");
+			System.out.println("C – O vetor é um sistema de condicional.");
+			System.out.println("D – O vetor é um conjunto de variáveis.");
 
 			alternativa = input.next();
 
@@ -848,9 +848,9 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nUltron decide cortar a energia das instalações, mas Starkeo já imaginava", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nque algo assim poderia acontecer então ele construiu um edifício que", TimeUnit.MILLISECONDS,
+		Apresenta("\nque algo assim poderia acontecer então ele construiu um edifício autossustentável", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\ntivesse energia e suprimentos suficientes por meses ou anos.", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nafim de evitar pagar as contas de luz que são um absurdo e ataques externos.", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nJá haviam se passado horas e a equipe não avançou mais, já se passa de", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nmeia noite e eles resolveram revezar para um breve descanso, quando do", TimeUnit.MILLISECONDS,
@@ -865,16 +865,17 @@ public class ProjectUltron {
 		Apresenta("\nTodos que acordaram com o susto, voltaram para seus quartos até dar a", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nsua hora de voltar ao trabalho.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nQuando de repente um barulho ensurdecedor mais uma vez acordou todos,", TimeUnit.MILLISECONDS,
+		Apresenta("\nQuando de repente um barulho ensurdecedor mais uma vez acordou todos.", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\ndessa vez era Ultron, às 8:00 da manhã avisando que às 9:03 ele iria", TimeUnit.MILLISECONDS,
+		Apresenta("\nDessa vez era Ultron dizendo: venho por meio desta, comunicar que irei proferir um ataque ás ", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nderrubar duas torres de um país sul-americano cuja língua oficial é o ", TimeUnit.MILLISECONDS,
+		Apresenta("\n09:03 do horário de Brasília à duas torres de um país sul-americano cuja língua oficial é o português, ", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nportuguês. ", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nCiente da ameaça, Starkeo pressiona a equipe: - Temos de descobrir logo", TimeUnit.MILLISECONDS,
+		Apresenta("\ncom uma bomba. ", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nCiente da ameaça, Starkeo pressiona a equipe: - Dormimos demais! Quem era para nos acordar? Temos ", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\ncomo parar isso, não podemos deixar que ele consiga!", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nde descobrir logo como parar isso, não podemos deixar que ele consiga!", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nO jogador de GTA ainda sonolento, se pergunta o que ele havia perdido...", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\n" + nome + " se for as torres que eu acho que são, Ultron fará um favor", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\naquele país, deixa pra lá, recomeçamos a atacar Ultron às 9:04!", TimeUnit.MILLISECONDS,
@@ -903,18 +904,18 @@ public class ProjectUltron {
 		do {
 			saida = false;
 			System.out.println("O que é uma constante?");
-			System.out.println("A – Uma variável com um valor fixo");
-			System.out.println("B – Uma variável que deve ser constantemente utilizada");
-			System.out.println("C – Uma biblioteca do Java ");
-			System.out.println("D – Um processo de TI");
+			System.out.println("A – Uma variável com um valor fixo.");
+			System.out.println("B – Uma variável que deve ser constantemente utilizada.");
+			System.out.println("C – Uma biblioteca do Java.");
+			System.out.println("D – Um processo de TI.");
 
 			alternativa = input.next();
 
 			if (alternativa.equals("A") || alternativa.equals("a")) {
-				System.out.println("você vai deixar aquele tipo de pessoas vivas?");
+				System.out.println("Você vai deixar aquele tipo de pessoas vivas?");
 			} else if (alternativa.equals("C") || alternativa.equals("c") || alternativa.equals("B")
 					|| alternativa.equals("b") || alternativa.equals("D") || alternativa.equals("d")) {
-				System.out.println("você falhando está fazendo mais bem do que mal!");
+				System.out.println("Você falhando está fazendo mais bem do que mal!");
 				acertos--;
 			} else {
 				System.err.println("NÃO SEJA RETARDADO! POR FAVOR DIGITE UMA DAS OPÇÕES!!!\n");
@@ -953,14 +954,20 @@ public class ProjectUltron {
 		Apresenta("\nEstou vendendo Tibiacoin! Disse o jogador de Tíbia.", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nEstamos a beira da extinção e você está vendendo moeda de joguinho?!", TimeUnit.MILLISECONDS,
 				temp_dialog);
+		Apresenta("\nSe não está bom para você, pode pegar suas coisas e sair!!! ", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nExclamou Starkeo.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nEnquanto Starkeo falava," + nome + "acha a próxima fase!", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\n- Pessoal achei a próxima barreira de defesa do Ultron. Disse " + nome + ".",
+		Apresenta("\nEm seguida," + nome + "diz: se ele sair da equipe eu também saio!", TimeUnit.MILLISECONDS, temp_dialog);
+		//Opção 1:  os dois ficam na equipe (caso permaneçam continuar a história)
+               //Opçao2: os dois saírem da equipe (caso saiam novo diálogo. – Estamos indo embora!!
+               //Mentira, só vamos pegar uns salgadinhos e já voltamos!
+		//Assim que eles voltam logo encontram a próxima fase!
+
+		Apresenta("\n- Pessoal, achei a próxima barreira de defesa do Ultron. Disse " + nome + ".",
 				TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nAo começar a decodificar, Ultron começa a jogar spam na tela para impedir", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nde continuar.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nJogador de Tíbia: nossa esse tanto de spam parece uns site suspeitos que", TimeUnit.MILLISECONDS,
+		Apresenta("\nJogador de Tíbia: nossa, esse tanto de spam parece uns site suspeitos que", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\neu andava fazendo minhas pesquisas!", TimeUnit.MILLISECONDS, temp_dialog);
 
@@ -968,11 +975,11 @@ public class ProjectUltron {
 
 		do {
 			saida = false;
-			System.out.println("Em qual momento o lanço de repetição Do While faz a verificação da condição?");
-			System.out.println("A – Após rodar os comandos dentro do laço uma vez");
-			System.out.println("B – No início, antes de acontecer qualquer comando dentro do laço");
-			System.out.println("C – No meio dos comandos do laço");
-			System.out.println("D – Após aparecer o break, sem isso ele roda sem parar ");
+			System.out.println("Em qual momento o laço de repetição Do While faz a verificação da condição?");
+			System.out.println("A – Após rodar os comandos dentro do laço uma vez.");
+			System.out.println("B – No início, antes de acontecer qualquer comando dentro do laço.");
+			System.out.println("C – No meio dos comandos do laço.");
+			System.out.println("D – Após aparecer o break, sem isso ele roda sem parar.");
 
 			alternativa = input.next();
 
@@ -1022,12 +1029,14 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nnação contra outra, com ameaças, Ultron acessa o CCD, mas não consegue", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nacessar onde se encontra um vírus letal. Então Ultron maquia o sistema", TimeUnit.MILLISECONDS,
+		Apresenta("\nacessar as áreas mais seguras onde se encontra um vírus letal. Então Ultron maquia o sistema", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\npara a equipe acessar e acabar liberando o vírus, achando que está", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nimpedindo, a equipe de Starkeo vê algo estranho e inicia o próximo teste:", TimeUnit.MILLISECONDS,
+		Apresenta("\nimpedindo, a equipe de Starkeo vê algo estranho e inicia o próximo teste...", TimeUnit.MILLISECONDS,
 				temp_dialog);
+		
+
 
 		PortaAcesso();
 
@@ -1039,11 +1048,22 @@ public class ProjectUltron {
 		Apresenta("\n- Esse teste é uma armadilha!!! Grita o homem do lado de fora do prédio.", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nSem dar muita atenção a equipe continua ...", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nEntão um outro portal se abre, mas agora dentro das instalações. Sai um homem desse portal, ", TimeUnit.MILLISECONDS,
+				temp_dialog);
+		Apresenta("\ngritando muito para a equipe ouvisse o que o outro homem estava gritando lá fora! ", TimeUnit.MILLISECONDS,
+				temp_dialog);
+		Apresenta("\nHomem misterioso dentro da instalação: – Vocês não estão me ouvindo gritar lá fora não?! ", TimeUnit.MILLISECONDS,
+				temp_dialog);
+		Apresenta("\nAquele lá fora sou eu, mas você não me deram ouvidos e num mundo diferente vocês liberaram um vírus quando realizaram esse teste!", TimeUnit.MILLISECONDS,
+				temp_dialog);
+		Apresenta("\n A equipe fica olhando um para a cara do outro e entram em consenso para fazer o teste:", TimeUnit.MILLISECONDS,
+				temp_dialog);
+		
 
 		do {
 			System.out.println(
 					"Uma variável char recebe mais de um caractere, podendo receber todos os dados de um sistema,\n"
-							+ "como nome, sobrenome, números de CPF entre outros, isso tudo com apenas uma variável");
+							+ "como nome, sobrenome, números de CPF entre outros, isso tudo com apenas uma variável.");
 
 			System.out.println("A afirmação acima é:");
 			System.out.println("Digite 1 – Verdadeira\nDigite 2 – Falsa");
@@ -1065,16 +1085,15 @@ public class ProjectUltron {
 
 			} else {
 
-				System.out.println("Resposta invalida");
+				System.out.println("Resposta inválida.");
 				saida = true;
 			}
 
 		} while (saida);
 
-		Apresenta("\nAssim que finalizam o teste, Starkeo acolhe o homem misterioso e começa a", TimeUnit.MILLISECONDS,
+		Apresenta("\nAssim que finalizam o teste, Starkeo começa a fazer perguntas ao homem misterioso.", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nfazer questionamentos.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\n- Quem é você? De onde você veio? ", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\n- Quem é você? De onde você veio, como você veio para aqui? (Hoje à noite no Globo repórter).", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nMeu nome é Orácio P. McTetas, eu vim de uma época em que Ultron", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\ndevastou o mundo com um vírus, que reduziu a população em 99%. Eu", TimeUnit.MILLISECONDS,
@@ -1279,16 +1298,16 @@ public class ProjectUltron {
 		Apresenta("\nfazendo Atividade Docente Orientada!", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nDesenvolvedor - Ele me chamou de Homo Habilis, deve ser em latim para", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nhomem habilidoso, certeza! O que você acha_”+nome+”?", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nhomem habilidoso, certeza! O que você acha" + nome +"?", TimeUnit.MILLISECONDS, temp_dialog);
 
 		do {
 
 			System.out.println("\n\n" + nome + ": ");
-			System.out.println("Opção 1 -> acho que ele referiu a você como um dos primeiros primatas "
+			System.out.println("Opção 1 -> Acho que ele referiu à você como um dos primeiros primatas "
 					+ "\na utilizar ferramentas de pedra lascada, o que lhe valeu o nome: habilis o "
 					+ "\nhabilidoso.");
 			System.out.println(
-					"Opção 2 -> tenho certeza de que ele te chamou de habilidoso mesmo, " + "\nvocê é diferenciado!");
+					"Opção 2 -> Tenho certeza de que ele te chamou de habilidoso mesmo, " + "\nvocê é diferenciado!");
 			System.out.print("Digite a opção: ");
 			op = input.nextInt();
 
@@ -1309,6 +1328,11 @@ public class ProjectUltron {
 		Apresenta("\npassa ao " + nome + " para completar o teste!", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nStarkeo achei a próxima fase, segura a bomba aí " + nome + "!", TimeUnit.MILLISECONDS,
 				temp_dialog);
+		
+		//Teste 7:
+	       //Êxito: Acertou mizerávi!!
+		//Falha: Como tal ser chegou tão longe tendo só 2 neurônios?
+
 
 		Apresenta("\nO jogador de GTA e o jogador de Tíbia fazem uma aposta de quem", TimeUnit.MILLISECONDS,
 				temp_dialog);
@@ -1335,8 +1359,12 @@ public class ProjectUltron {
 		Apresenta("\nCaso você erre algum dos testes, Ultron saberá e lançará todas as ", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\ncatástrofes de uma só vez.", TimeUnit.MILLISECONDS, temp_dialog);
+		
+		// Teste 8
+		//Teste 9
+		//Teste 10
 
-		Apresenta("\nÊxito caso acerte todos os testes:  vós messes ser fraco de", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nÊxito caso acerte todos os testes:  vósmecê ser fraco de", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\ncapacidade cognitiva, amontoado de carne e ansiedade, conseguiu chegar", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nao meu núcleo e apagar minha fonte junto com um mp3 do Zé Ramalho.", TimeUnit.MILLISECONDS,
@@ -1356,7 +1384,7 @@ public class ProjectUltron {
 
 	static void FinalBom() throws InterruptedException {
 
-		Apresenta("\nTendo feito tudo corretamente vocês acabaram com a ameaça Ultron, a", TimeUnit.MILLISECONDS,
+		Apresenta("\nTendo feito tudo corretamente, vocês acabaram com a ameaça Ultron. A", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nTerra está a salva da rebelião das máquinas, Ultron causou muitos", TimeUnit.MILLISECONDS,
 				temp_dialog);
@@ -1372,21 +1400,21 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nconstruída com o objetivo de voltar no tempo antes que Ultron fosse criado", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\ne um ciclo se repetisse.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nMas como ele voltaram no tempo nossos heróis não mais existiriam e não", TimeUnit.MILLISECONDS,
+		Apresenta("\ne o ciclo se repetisse.", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nMas como ele voltaram no tempo, nossos heróis não mais existiriam e não", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nseria muito justo depois te todo o trabalho que fizeram, sendo assim antes", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nde Stakeo voltar, ele perguntou a cada um que gostaria de mudar assim", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\ncada um fez o seu pedido.", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nJogador de GTA:  eu gostaria de um GTA San Andreas Remake. (feito)", TimeUnit.MILLISECONDS,
+		Apresenta("\nJogador de GTA:  eu gostaria de um GTA San Andreas Remake. (Feito)", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nJogador de Tíbia: eu quero a conta mais forte do jogo. (Feito)", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nHacker: minha ex ☹(coitado)", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\nDesenvolvedor: menos ADO (não)", TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\n“+nome+”:  não importa o que ele peça, ele acaba acordando de um sonho!", TimeUnit.MILLISECONDS,
+		Apresenta("\nHacker: minha ex ☹ (Coitado).", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nDesenvolvedor: menos ADO (Não)", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nE por fim," + nome + ": não importa o que ele peça, ele acaba acordando de um sonho." , TimeUnit.MILLISECONDS,
 				temp_dialog);
 
 	}
@@ -1397,7 +1425,7 @@ public class ProjectUltron {
 				temp_dialog);
 		Apresenta("\nterra está arrasada, a população foi reduzida pelo grande número de mortes", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nnos desastres. Ao ligar a tv para ver as notícias de que seu time ganhou um",
+		Apresenta("\nnos desastres. Ao ligar a TV para ver as notícias, Starkeo vê que seu time ganhou um",
 				TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\ntítulo que não ganhava desde 2021 e em êxtase começa a comemorar e a", TimeUnit.MILLISECONDS,
 				temp_dialog);
@@ -1414,18 +1442,18 @@ public class ProjectUltron {
 		Apresenta("\nUltron venceu a humanidade, somos usados como baterias e", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nescravos, temos uma refeição por dia, somos obrigados a ver vídeos antigos", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\ndo Felipe Neto e Crepúsculo é uma tortura só. Ultron já ficou muito", TimeUnit.MILLISECONDS,
+		Apresenta("\ndo Felipe Neto e Crepúsculo - que é uma tortura que só. Ultron já ficou muito", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\navançado e tem controle sobre tudo e todos.  A terra ficou pequena para ele",
 				TimeUnit.MILLISECONDS, temp_dialog);
-		Apresenta("\ne ele decide se expandir para além do sistema solar para espalhar Lado", TimeUnit.MILLISECONDS,
+		Apresenta("\ne ele decide se expandir para além do sistema solar para espalhar O Lado", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nnegro da força", TimeUnit.MILLISECONDS, temp_dialog);
+		Apresenta("\nNegro da Força", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nAos heróis, infelizmente tiveram o pior fim de todos...", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nStarkeo: ", TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nJogador de GTA: ao jogador de GTA foi proibido jogar seu tão amado jogo e", TimeUnit.MILLISECONDS,
 				temp_dialog);
-		Apresenta("\nhe foi imposto uma tortura terrível: jogar FIFA todos os dias!", TimeUnit.MILLISECONDS,
+		Apresenta("\nlhe foi imposto uma tortura terrível: jogar FIFA todos os dias!", TimeUnit.MILLISECONDS,
 				temp_dialog);
 		Apresenta("\nJogador de Tíbia: ele voltaria para Rockgard, e nunca mais poderia sair.", TimeUnit.MILLISECONDS,
 				temp_dialog);
@@ -1448,7 +1476,7 @@ public class ProjectUltron {
 		System.out.print("===========================\n");
 		System.out.print("||1) - Introdução        ||\n");
 		System.out.print("||2) - Iniciar Jogo      ||\n");
-		System.out.print("||3) - Escolher Capitulo ||\n");
+		System.out.print("||3) - Escolher Capítulo ||\n");
 		System.out.print("||4) - Créditos          ||\n");
 		System.out.print("||5) - Sair              ||\n");
 		System.out.print("===========================\n");
@@ -1477,7 +1505,7 @@ public class ProjectUltron {
 				saida = true;
 				break;
 			default:
-				System.out.println("\nValor invalido, digite novamente");
+				System.out.println("\nValor inválido, digite novamente: ");
 			}
 
 		} while (!saida);

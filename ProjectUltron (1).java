@@ -436,6 +436,7 @@ public class ProjectUltron {
 			System.out.println("1 - Capítulo 1");
 			System.out.println("2 - Capítulo 2");
 			System.out.println("3 - Capítulo 3");
+			System.out.println("4 - Capítulo 4");
 			System.out.println("5 - Voltar");
 
 			int escolha = input.nextInt();

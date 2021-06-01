@@ -690,7 +690,7 @@ public class ProjectUltron {
 		Apresenta("\nentão " + nome + " vai até a mesa dele e olha a primeira barreira de defesa",
 				TimeUnit.MILLISECONDS, temp_dialog);
 		Apresenta("\nde Ultron.", TimeUnit.MILLISECONDS, temp_dialog);// O inicio contem muito texto, vamos tentar criar
-																		// uma interação com usuário no meio do caminho
+							          // uma interação com usuário no meio do caminho
 
 		Apresenta("\nAntes de podermos quebrar a barreira do Ultron, devemos desvendar o caminho", TimeUnit.MILLISECONDS,
 				temp_dialog);
